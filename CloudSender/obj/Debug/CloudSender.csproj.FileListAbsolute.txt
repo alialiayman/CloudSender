@@ -1,0 +1,8 @@
+c:\Projects\CloudSender\CloudSender\bin\Debug\CloudSender.exe.config
+c:\Projects\CloudSender\CloudSender\bin\Debug\CloudSender.exe
+c:\Projects\CloudSender\CloudSender\bin\Debug\CloudSender.pdb
+c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.Form1.resources
+c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.Properties.Resources.resources
+c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csproj.GenerateResource.Cache
+c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.exe
+c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.pdb
