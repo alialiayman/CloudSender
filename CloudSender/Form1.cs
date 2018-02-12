@@ -57,7 +57,7 @@ namespace CloudSender
             var fileName = Path.GetFileNameWithoutExtension(input);
             if (fileName != null && Regex.IsMatch(fileName, @"^\d+$"))
             {
-                return int.Parse(input);
+                return int.Parse(fileName);
             }
             return 0;
         }
