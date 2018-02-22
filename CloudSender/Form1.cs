@@ -79,7 +79,24 @@ namespace CloudSender
             {
                 _random = DateTime.Now.Ticks.ToString("x");
                 _lastRandom = _random;
+
+                Clipboard.SetText(_random + "@sharklasers.com");
+                tsMessage.Text = $"Copied {_random} to clipboard";
             }
+
+            if (dfsSendString.Text.Contains("{lastrandom}")) //If the string to send does not contain random then both lastrandom for sure will retain previous value
+            {
+                if (string.IsNullOrEmpty(_lastRandom))
+                    _random = DateTime.Now.Ticks.ToString("x");
+
+                _lastRandom = _random;
+                Clipboard.SetText(_lastRandom + "@sharklasers.com");
+                tsMessage.Text = $"Copied {_lastRandom} to clipboard";
+            }
+
+
+            
+
             var stringToSend = dfsSendString.Text.Replace("{random}", _random).Replace("{lastrandom}", _lastRandom).Replace("{10digits}",DateTime.Now.ToString("ddMMyyhhmm"));
             SendKeys.SendWait(stringToSend);
             if (!_newFileMode)

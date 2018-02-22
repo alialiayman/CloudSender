@@ -48,6 +48,8 @@
             this.btn10Digits = new System.Windows.Forms.Button();
             this.dfcCollections = new System.Windows.Forms.ComboBox();
             this.dffTakeScreenshots = new System.Windows.Forms.CheckBox();
+            this.tsMessage = new System.Windows.Forms.ToolStripStatusLabel();
+            this.sbMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // lstPages
@@ -160,6 +162,8 @@
             // 
             // sbMain
             // 
+            this.sbMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsMessage});
             this.sbMain.Location = new System.Drawing.Point(0, 647);
             this.sbMain.Name = "sbMain";
             this.sbMain.Size = new System.Drawing.Size(454, 22);
@@ -256,6 +260,12 @@
             this.dffTakeScreenshots.Text = "Take screen shots";
             this.dffTakeScreenshots.UseVisualStyleBackColor = true;
             // 
+            // tsMessage
+            // 
+            this.tsMessage.Name = "tsMessage";
+            this.tsMessage.Size = new System.Drawing.Size(39, 17);
+            this.tsMessage.Text = "Ready";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -281,6 +291,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Cloud Sender";
+            this.sbMain.ResumeLayout(false);
+            this.sbMain.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -306,6 +318,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn10Digits;
         private System.Windows.Forms.CheckBox dffTakeScreenshots;
+        private System.Windows.Forms.ToolStripStatusLabel tsMessage;
     }
 }
 

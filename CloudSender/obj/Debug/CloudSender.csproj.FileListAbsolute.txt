@@ -6,3 +6,4 @@ c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.Properties.Resources.r
 c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csproj.GenerateResource.Cache
 c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.exe
 c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.pdb
+C:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csprojResolveAssemblyReference.cache
