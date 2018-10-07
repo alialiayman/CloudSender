@@ -7,3 +7,4 @@ c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csproj.GenerateResourc
 c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.exe
 c:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.pdb
 C:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csprojResolveAssemblyReference.cache
+C:\Projects\CloudSender\CloudSender\obj\Debug\CloudSender.csproj.CoreCompileInputs.cache

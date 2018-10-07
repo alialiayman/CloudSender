@@ -81,7 +81,7 @@ namespace CloudSender
                 _lastRandom = _random;
 
                 Clipboard.SetText(_random + "@sharklasers.com");
-                tsMessage.Text = $"Copied {_random} to clipboard";
+                tsMessage.Text = $"Copied {_random}@sharklasers.com to clipboard";
             }
 
             if (dfsSendString.Text.Contains("{lastrandom}")) //If the string to send does not contain random then both lastrandom for sure will retain previous value
@@ -91,7 +91,7 @@ namespace CloudSender
 
                 _lastRandom = _random;
                 Clipboard.SetText(_lastRandom + "@sharklasers.com");
-                tsMessage.Text = $"Copied {_lastRandom} to clipboard";
+                tsMessage.Text = $"Copied {_lastRandom}@sharklasers.com to clipboard";
             }
 
 
